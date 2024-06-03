@@ -3,6 +3,8 @@
 ## Overview
 GenoQuery is an innovative tool designed to streamline the process of querying genomic and biological data through a user-friendly chatbot interface. Developed with the intention of simplifying access to complex datasets, GenoQuery enables researchers, scientists, and academicians to interact with, extract, and analyze data from extensive genomic databases like PlasmoDB with unprecedented ease.
 
+This project builds on top of the chatbot developed as part of the [Protein Data Visualizer](https://github.com/parthasarathydNU/protien-data-visualizer) project.
+
 ## Purpose
 The primary objective of GenoQuery is to facilitate effortless interaction with genomic data that traditionally requires specialized knowledge to navigate and process. By integrating a natural language processing (NLP) interface, GenoQuery allows users to make inquiries in plain English and receive data in a comprehensible format, thereby significantly enhancing productivity and focus on core research activities.
 
