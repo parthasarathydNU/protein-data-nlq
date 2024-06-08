@@ -1,4 +1,8 @@
 pandas
 sqlalchemy
 goatools
-
+langchain_openai 
+langchain_community
+langchain
+pymysql
+chromadb
