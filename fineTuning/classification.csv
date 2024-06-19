@@ -1,0 +1,1576 @@
+,model,messages,generated_message,error,latency,prompt_tokens,completion_tokens,total_tokens,userQuery
+984d8981-44f6-48e2-b4e2-4dadfb495406,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""How can I find the average hydrophobicity of PF00063""
+Classification:
+",AI: query,,0.76966,243,1,244,"""How can I find the average hydrophobicity of PF00063"""
+b5fda785-38aa-49a4-820e-d7e64536d57c,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""What specific details are you looking to retrieve from the protein database?""
+Classification:
+",AI: conversation,,0.587546,241,1,242,"""What specific details are you looking to retrieve from the protein database?"""
+250be867-86d3-46c7-8a03-f29ff5e4205a,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""What kind of information is stored in the gene_aliases table?""
+Classification:
+",AI: query,,0.720722,240,1,241,"""What kind of information is stored in the gene_aliases table?"""
+4404e737-ce2d-4ec9-828a-6ad2d7f0957a,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""How can you help me?""
+Classification:
+",AI: conversation,,0.968372,234,1,235,"""How can you help me?"""
+6781a6cb-2a84-45f6-a009-05c6d40ed2be,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""Can you provide more details about the codon_usage table?""
+Classification:
+",AI: query,,0.808264,240,1,241,"""Can you provide more details about the codon_usage table?"""
+00b267e4-f13a-46a4-a60f-5ace2bba9b7b,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""How can you help me?""
+Classification:
+",AI: conversation,,0.441482,234,1,235,"""How can you help me?"""
+ed8cdaeb-9a5b-4829-b80a-412a4f185d3a,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""What are protein families? ""
+Classification:
+",AI: conversation,,0.745964,234,1,235,"""What are protein families? """
+cc14c7ed-0fc4-4a2b-acef-1cc976acf5f1,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""Can you explain the significance of codon usage in protein synthesis?""
+Classification:
+",AI: conversation,,0.895276,241,1,242,"""Can you explain the significance of codon usage in protein synthesis?"""
+52d67223-95c9-42eb-af0e-974469185436,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""How is the data on protein families organized within the database?""
+Classification:
+",AI: query,,0.879915,240,1,241,"""How is the data on protein families organized within the database?"""
+691c8126-e3fe-4629-b2bb-3b4618f2e210,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""Can you provide more details about the codon_usage table?""
+Classification:
+",AI: query,,0.93715,240,1,241,"""Can you provide more details about the codon_usage table?"""
+a3df896a-7dc6-482b-a9d6-086cd00015d7,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""What are the main protein families available in the database""
+Classification:
+",AI: query,,0.78521,239,1,240,"""What are the main protein families available in the database"""
+58c35f34-3eb5-4e55-9105-2f8476977519,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""how much protein is in chikpeas?""
+Classification:
+",AI: query,,0.637895,238,1,239,"""how much protein is in chikpeas?"""
+9088432d-9785-4aef-b442-0c6098ef35fc,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""How can you help me?""
+Classification:
+",AI: conversation,,0.506002,234,1,235,"""How can you help me?"""
+3a84785e-e70b-4d13-a8f4-6aaa152321b8,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""What are the main protein families available in the database""
+Classification:
+",AI: query,,0.42372,239,1,240,"""What are the main protein families available in the database"""
+acbe3000-2e97-44a7-9554-92059a5b4c52,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""you are amazing !""
+Classification:
+",AI: conversation,,0.590121,233,1,234,"""you are amazing !"""
+c11a5b02-cd9f-4f7b-9635-048cc0b062ed,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""Give me the average hydrophobicity of proteins with the pfam domain PF10584 along with the SQL query in the output""
+Classification:
+",AI: query,,0.539809,255,1,256,"""Give me the average hydrophobicity of proteins with the pfam domain PF10584 along with the SQL query in the output"""
+78b1c849-e815-42ae-9070-997c8523248a,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""Give me the average hydrophobicity of proteins with the pfam domain PF10584 along with the SQL query in the output""
+Classification:
+",AI: query,,0.42694,255,1,256,"""Give me the average hydrophobicity of proteins with the pfam domain PF10584 along with the SQL query in the output"""
+1b8f2c51-ab79-407a-8c39-3d257769ddba,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""can you tell me what query you ran to get this ?""
+Classification:
+",AI: conversation,,0.7816,241,1,242,"""can you tell me what query you ran to get this ?"""
+bedfe7e7-9971-4943-b90c-58a8f93b2a8b,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""give me the average hydrophobicity of proteins with the pfam domain PF10584""
+Classification:
+",AI: query,,0.525989,247,1,248,"""give me the average hydrophobicity of proteins with the pfam domain PF10584"""
+105125d0-8606-42d6-b14a-bbf76d9f3d3c,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""give me one pfam domain form the DB""
+Classification:
+",AI: query,,0.734419,238,1,239,"""give me one pfam domain form the DB"""
+414f7132-a99e-4fd1-83d4-3a499c8abb7d,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""I'd like to run some queries that involve joins""
+Classification:
+",AI: query,,0.591278,239,1,240,"""I'd like to run some queries that involve joins"""
+2d503708-484a-4ec0-b4c8-a08463a8f2ac,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""can you show me the query ?""
+Classification:
+",AI: conversation,,0.839324,236,1,237,"""can you show me the query ?"""
+2ce536c2-056c-488c-92e8-f894bfdd730b,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""how did you get this ?""
+Classification:
+",AI: conversation,,0.574955,235,1,236,"""how did you get this ?"""
+41c0c405-4d17-4b2f-9ed7-069811c6f60b,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""Get me the codon frequency and abundance for amino acid ""V"".""
+Classification:
+",AI: query,,0.380203,243,1,244,"""Get me the codon frequency and abundance for amino acid ""V""."""
+ea8feadd-7871-42f9-8eb9-a1c46aa9bcf7,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""what are the amino acids in the db ?""
+Classification:
+",AI: query,,0.673225,238,1,239,"""what are the amino acids in the db ?"""
+b49789fd-9a1e-4e16-811b-e8c4e15654ca,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""can you query infromation across these tables ? if so what are some questions that you can help answer ?""
+Classification:
+",AI: conversation,,0.816467,251,1,252,"""can you query infromation across these tables ? if so what are some questions that you can help answer ?"""
+4cc9e637-ed03-4fae-9266-24c53e4c095d,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""what are the tables in the db ?""
+Classification:
+",AI: query,,0.776813,237,1,238,"""what are the tables in the db ?"""
+6b1b091c-2c5d-441a-a17f-b1f941707412,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""How can you help me?""
+Classification:
+",AI: conversation,,0.447412,234,1,235,"""How can you help me?"""
+a5d9bd79-ec33-46eb-9e14-82ca324c2280,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""whats the query that you ran to get this ""
+Classification:
+",AI: query,,0.446765,239,1,240,"""whats the query that you ran to get this """
+09f71d96-a248-42c6-aec5-a7cbff1b9150,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""Give me the average hydrophobicity of proteins which have the pfam domain PF01918""
+Classification:
+",AI: query,,1.505244,248,1,249,"""Give me the average hydrophobicity of proteins which have the pfam domain PF01918"""
+fc58c634-e7de-487e-8476-9ef60c22551e,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""what are some Pfam domains in the database ""
+Classification:
+",AI: query,,0.626189,238,1,239,"""what are some Pfam domains in the database """
+38beaed2-1a88-4c8e-af26-46ada0bf856a,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""Whats the sql query behind this ?""
+Classification:
+",AI: conversation,,0.793333,236,1,237,"""Whats the sql query behind this ?"""
+5822f844-3efb-440b-a5e2-266ae50b4fd6,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""How can I find the average hydrophobicity of PF00063""
+Classification:
+",AI: query,,0.456969,243,1,244,"""How can I find the average hydrophobicity of PF00063"""
+22586868-988b-4d98-85b7-78e43796c9be,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""List 5 proteins and their corresponding gene symbols and aliases.""
+Classification:
+",AI: query,,0.854115,240,1,241,"""List 5 proteins and their corresponding gene symbols and aliases."""
+09949b70-a8fd-4c47-a1ec-bf37c29bb8a4,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""Find the average hydrophobicity of proteins for each gene type in the gene_annotations table.""
+Classification:
+",AI: query,,1.015005,247,1,248,"""Find the average hydrophobicity of proteins for each gene type in the gene_annotations table."""
+95091e0c-893b-46c2-a797-752e130eb8ac,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""I want to run queries that involve joins, give me some prompts that I can use to test such queries""
+Classification:
+",AI: query,,0.52726,250,1,251,"""I want to run queries that involve joins, give me some prompts that I can use to test such queries"""
+fbb76590-499f-4b05-8e7b-577cd1d1296c,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""can you tell me what query you ran to get this data ?""
+Classification:
+",AI: conversation,,1.445983,242,1,243,"""can you tell me what query you ran to get this data ?"""
+3eaff997-f668-4481-8c17-3273bff0bad0,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""give me the average hydrophobicity of protiens with the pfam domain of PF10584""
+Classification:
+",AI: query,,1.042549,249,1,250,"""give me the average hydrophobicity of protiens with the pfam domain of PF10584"""
+038d0f08-3d4d-40b3-8f1d-c01b4d92f09e,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""give me one pfam domain ""
+Classification:
+",AI: query,,0.550407,235,1,236,"""give me one pfam domain """
+07d5a80e-8b37-4411-95f6-01515595fad0,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""given these tables, can you tell me some questions that I can have answered by querynig data across the tables ? ""
+Classification:
+",AI: conversation,,0.59124,253,1,254,"""given these tables, can you tell me some questions that I can have answered by querynig data across the tables ? """
+94a2b3af-8cbb-46e5-94f6-9444b452e8de,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""tell me what each table talks about ""
+Classification:
+",AI: conversation,,0.52673,236,1,237,"""tell me what each table talks about """
+a3668e0e-e8ce-4f22-949d-6e6969fd03e8,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""can you give me a UML diagram representation of all these tables ? ""
+Classification:
+",AI: conversation,,0.535312,243,1,244,"""can you give me a UML diagram representation of all these tables ? """
+c65878f4-833d-4471-a1e9-01d353ca86ee,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""what are the tables in the DB""
+Classification:
+",AI: query,,1.03756,236,1,237,"""what are the tables in the DB"""
+3eb23dc3-fa73-4685-964d-7c478d308219,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""How can I find the average hydrophobicity of PF00063""
+Classification:
+",AI: query,,0.758099,243,1,244,"""How can I find the average hydrophobicity of PF00063"""
+08a8a45a-465b-45be-8a95-f591da9734c2,gpt-4,"Human: 
+Please classify the following input string as either a 'query' or 'conversation'. A 'query' directly uses SQL commands or clearly implies a need for an SQL query to retrieve data from a database. A 'conversation' includes dialogue unrelated to database operations or ambiguous questions that require further clarification before proceeding.
+
+Classification categories:
+1. query
+2. conversation
+
+Examples:
+Input: ""SELECT name, age FROM users WHERE age > 30""
+Classification: query
+
+Input: ""What are the main protein families available in the database?""
+Classification: query
+
+Input: ""How are you today?""
+Classification: conversation
+
+Input: ""Can you help me find the average age of users?""
+Classification: query
+
+Input: ""Give me a report of all proteins associated with a specific function or disease.""
+Classification: conversation
+
+Input: ""Tell me a joke.""
+Classification: conversation
+
+
+Guidelines:
+- Direct SQL commands or clear SQL query suggestions should be classified as 'query'.
+- Casual dialogue or ambiguous queries needing clarification should be classified as 'conversation'.
+
+Now, classify the following input:
+Input: ""How can I find the average hydrophobicity of PF00063""
+Classification:
+",AI: query,,0.97173,243,1,244,"""How can I find the average hydrophobicity of PF00063"""
