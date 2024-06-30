@@ -1,5 +1,7 @@
 # GenoQuery: Interactive Genomic Data Chatbot
 
+### 🎥 [YouTube PlayList](https://www.youtube.com/playlist?list=PLuJI6RWPU5Viiw0ph9CwXEYWb27ss0tjd) 🎬
+
 ![](./Documentation/images/Natural%20Language%20to%20SQL%20Architecture%20V2.png)
 
 ![](./Documentation/images/TableDescriptionsV1.png)
